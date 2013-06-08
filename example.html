@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>placeholder</title>
+    <link rel='stylesheet' href='build/build.css'>
+    <script src='build/build.js'></script>
+  </head>
+  <body>
+    <input type='text'>
+    <textarea type='text'></textarea>
+    <script>
+      var placeholder = require('placeholder')
+        , textarea = document.getElementsByTagName('textarea')[0]
+        , input = document.getElementsByTagName('input')[0];
+
+      placeholder(textarea).set('textarea');
+      placeholder(input).set('input');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "placeholder",
+  "repo": "yields/placeholder",
+  "description": "Placeholder for older browsers.",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "styles": ["placeholder.css"],
+  "dependencies": {
+    "component/events": "*",
+    "component/classes": "*"
+  }
+}
