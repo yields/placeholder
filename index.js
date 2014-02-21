@@ -47,7 +47,7 @@ Placeholder.prototype.bind = function(){
  */
 
 Placeholder.prototype.unbind = function(){
-  this.event.unbind();
+  this.events.unbind();
   return this;
 };
 
