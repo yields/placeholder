@@ -59,10 +59,11 @@ Placeholder.prototype.unbind = function(){
  */
 
 Placeholder.prototype.set = function(val){
+  this.val = val;
   if (this.classes.has('placeholder')) return this;
   if (this.el.value) return this;
   this.classes.add('placeholder');
-  this.val = this.el.value = val;
+  this.el.value = val;
   return this;
 };
 
